@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Counter from "./components/Counter";
+import ToggleButton from "./components/ToggleButton";
+import TextInput from "./components/TextInput";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +20,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <TextInput />
+      <ToggleButton />
+      <Counter />
     </div>
   );
 }
